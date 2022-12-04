@@ -28,7 +28,7 @@ window.addEventListener('load', () => {
     
     wrapper.addEventListener('click', () => {
         you.innerHTML = "You're invited";
-        open.innerHTML = 'OPEN';
+        open.innerHTML = 'PLEASE OPEN';
         open.style.border = '1px solid #004aad';
         open.style.background = '#004aad'
         one.style.transform = 'rotateX(90deg)';

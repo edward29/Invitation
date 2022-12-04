@@ -166,6 +166,7 @@ body {
     text-align: center;
     font-family: 'Crafty Girls', cursive;
     font-weight: 700;
+    font-size: 22px;
     color: #004aad;
     letter-spacing: 1px;
     word-spacing: 3px;
@@ -173,6 +174,7 @@ body {
 }
 
 #open {
+    font-size: 100%;
     border-radius: 8px;
     color: #fff;
     margin-top: 20px;
@@ -259,8 +261,9 @@ body {
   }
 
 .center {
-    transform: translateY(-160px);
-    background-image: url('details.png');
+    transform: translateY(-162px);
+    background-image: url('details1.png');
+    z-index: 10;
 }
 
 .right {
