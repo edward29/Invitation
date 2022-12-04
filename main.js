@@ -1,4 +1,5 @@
 const loader = document.querySelector(".loader");
+document.querySelector('#load').src = 'loading.gif';
 window.addEventListener('load', disapperIt);
 
 function disapperIt() {
