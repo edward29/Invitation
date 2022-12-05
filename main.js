@@ -66,7 +66,7 @@ window.addEventListener('load', () => {
             }, 3000);
             setTimeout(() => {
                 lower.style.display = 'none';
-            }, 3200);
+            }, 3500);
         });
     });
 })
