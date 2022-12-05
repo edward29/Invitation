@@ -36,9 +36,9 @@ window.addEventListener('load', () => {
     }
     else {
         error.style.display = 'none';
-        setInterval(() => {
-            main.style.display = 'flex';
-        }, 500);
+        // setTimeout(() => {
+        //     main.style.display = 'flex';
+        // }, 1000);
         
         wrapper.addEventListener('click', () => {
             you.innerHTML = "You're invited";
@@ -79,6 +79,10 @@ window.addEventListener('load', () => {
                     lower2.style.animation = 'lower-2 1.5s forwards';
                     see.innerHTML = 'See You😍';
                 }, 3000);
+
+                setTimeout(() => {
+                    lower.style.display = 'none';
+                }, 3500);
             });
         });
     }

@@ -146,7 +146,7 @@ body {
 
 /* invitation */
 .main {
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -214,7 +214,7 @@ body {
 
 .left, .right {
     width: 165px;
-    height: 100px;
+    height: 110px;
     z-index: 70;
 }
 
@@ -237,7 +237,7 @@ body {
               transform: rotate3d(-1, 1, 0, -180deg);
         -webkit-transform-origin: 0% 0%;
         transform-origin: 0% 0%;
-        margin: -29px -25px 118px 0px;
+        margin: -25px -33px 115px 0px;
         z-index: 10;
     }
   }
@@ -253,7 +253,7 @@ body {
         transform: rotate3d(-1, 1, 0, -180deg);
         -webkit-transform-origin: 0% 0%;
         transform-origin: 0% 0%;
-        margin: -29px -25px 118px 0px;
+        margin: -25px -33px 115px 0px;
         z-index: 11;
     }
   }
@@ -283,7 +283,7 @@ body {
               transform: rotate3d(1, 1, 0, 180deg);
       -webkit-transform-origin: 100% 0%;
         transform-origin: 100% 0%;
-        margin: -28px 8px 114px 0px;
+        margin: -25px 15px 109px 0px;
         z-index: 20;
     }
   }
@@ -299,7 +299,7 @@ body {
         transform: rotate3d(1, 1, 0, 180deg);
         -webkit-transform-origin: 100% 0%;
         transform-origin: 100% 0%;
-        margin: -28px 8px 114px 0px;
+        margin: -25px 15px 109px 0px;
         z-index: 21;
     }
 }
@@ -315,17 +315,17 @@ body {
 
 @keyframes lower {
     0% {
-        opacity: 1;
+        /* opacity: 1; */
         transform: rotateX(0deg);
     }
     
     100% {
-        visibility: hidden;
-        opacity: .5;
+        /* visibility: hidden; */
+        /* opacity: .5; */
         width: 230px;
         height: 215px;
         transform: rotateX(180deg);
-        margin: -4.5% 0 1.5% -1.5%;
+        margin: -15px 0 2px -3px;
         z-index: 15;
     }
 }
@@ -344,17 +344,17 @@ body {
 
 @keyframes lower-2 {
     0% {
-        opacity: 0;
-        visibility: hidden;
+        /* opacity: 0;
+        visibility: hidden; */
         transform: rotateX(0deg);
     }
     
     100% {
-        opacity: 1;
-        visibility: visible;
+        /* opacity: 1;
+        visibility: visible; */
         transform: rotateX(180deg);
         width: 263px;
-        margin-top: -3.5%;
+        margin-top: -8px;
         z-index: 40;
     }
 }
