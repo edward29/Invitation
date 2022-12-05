@@ -210,7 +210,6 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
-    z-index: 20;
 }
 
 .left, .right {
@@ -320,29 +319,29 @@ body {
     height: 220px;
     margin-top: -306px;
     position: absolute;
-    background-image: url('image.png');
+    background-image: url('image1.png');
     background-position: center;
     background-size: 100%;
     /* animation: lower-2 3s forwards; */
 }
 
 @keyframes lower-2 {
-    from {
+    0% {
         transform: rotateX(0deg);
     }
-    to {
+    100% {
         transform: rotateX(180deg);
-        width: 340px;
-        margin-top: -20px;
+        width: 263px;
+        margin-top: -8px;
         z-index: 40;
     }
 }
 
 @keyframes lower {
-    from{
+    0% {
         transform: rotateX(0deg);
     }
-    to {
+    100% {
         width: 230px;
         height: 215px;
         transform: rotateX(180deg);
