@@ -62,11 +62,11 @@ window.addEventListener('load', () => {
             
             setInterval(() => {
                 lower.style.animation = 'lower 1.5s forwards';
-                setTimeout(() => {
-                    lower.style.display = 'none';
-                }, 700);
                 lower2.style.animation = 'lower-2 1.5s forwards';
             }, 3000);
+            setTimeout(() => {
+                lower.style.display = 'none';
+            }, 3200);
         });
     });
 })
