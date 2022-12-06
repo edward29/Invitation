@@ -319,7 +319,7 @@ body {
         transform: rotateX(0deg);
     }
 
-    60% {
+    40% {
         opacity: 1;
         z-index: 599;
     }
@@ -355,9 +355,13 @@ body {
         transform: rotateX(0deg);
     }
 
-    80% {
+    40% {
         opacity: 1;
-        z-index: 799;
+        z-index: 499;
+    }
+
+    45% {
+        z-index: 699;
     }
     
     100% {
