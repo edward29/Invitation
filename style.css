@@ -159,7 +159,7 @@ body {
 .text {
     position: absolute;
     transform: translateY(-190px);
-    z-index: 80;
+    z-index: 1099;
 }
 
 .main p {
@@ -215,7 +215,7 @@ body {
 .left, .right {
     width: 165px;
     height: 110px;
-    z-index: 70;
+    z-index: 999;
 }
 
 .left {
@@ -238,7 +238,7 @@ body {
         -webkit-transform-origin: 0% 0%;
         transform-origin: 0% 0%;
         margin: -25px -33px 115px 0px;
-        z-index: 10;
+        z-index: 39;
     }
   }
 @keyframes swing-top-left-fwd {
@@ -254,14 +254,14 @@ body {
         -webkit-transform-origin: 0% 0%;
         transform-origin: 0% 0%;
         margin: -25px -33px 115px 0px;
-        z-index: 11;
+        z-index: 40;
     }
   }
 
 .center {
     transform: translateY(-162px);
     background-image: url('details1.png');
-    z-index: 50;
+    z-index: 99;
 }
 
 .right {
@@ -284,7 +284,7 @@ body {
       -webkit-transform-origin: 100% 0%;
         transform-origin: 100% 0%;
         margin: -25px 15px 109px 0px;
-        z-index: 20;
+        z-index: 49;
     }
   }
 @keyframes swing-top-right-fwd {
@@ -300,7 +300,7 @@ body {
         -webkit-transform-origin: 100% 0%;
         transform-origin: 100% 0%;
         margin: -25px 15px 109px 0px;
-        z-index: 21;
+        z-index: 50;
     }
 }
 
@@ -310,7 +310,7 @@ body {
     margin: -215px 0 60px -3px;
     background-image: url('lower.png');
     /* animation: lower 3s forwards; */
-    z-index: 60;
+    z-index: 899;
 }
 
 @keyframes lower {
@@ -321,7 +321,7 @@ body {
 
     60% {
         opacity: 1;
-        z-index: 60;
+        z-index: 599;
     }
     
     100% {
@@ -331,7 +331,7 @@ body {
         height: 215px;
         transform: rotateX(180deg);
         margin: -15px 0 2px -3px;
-        z-index: 15;
+        z-index: 0;
     }
 }
 
@@ -343,7 +343,8 @@ body {
     background-image: url('image1.png');
     background-position: center;
     background-size: 100%;
-    z-index: 45;
+    opacity: 0;
+    z-index: 699;
     /* animation: lower-2 3s forwards; */
 }
 
@@ -356,7 +357,7 @@ body {
 
     80% {
         opacity: 1;
-        z-index: 70;
+        z-index: 799;
     }
     
     100% {
@@ -365,7 +366,7 @@ body {
         transform: rotateX(180deg);
         width: 263px;
         margin-top: -8px;
-        z-index: 40;
+        z-index: 20;
     }
 }
 
