@@ -23,18 +23,10 @@ const text = document.querySelector('.text');
 const you = document.querySelector('#you');
 const open = document.querySelector('#open');
 const see = document.querySelector('#see');
-const message = document.querySelector('.message');
-const error = document.querySelector('.error');
 
 
 window.addEventListener('load', () => {
     
-    if(w <= 299) {
-        loader.style.display = 'none';
-        wrapper.style.display = 'none';
-        message.innerHTML = 'Your device is not compatible.';
-    }
-    else {
         error.style.display = 'none';
         // setTimeout(() => {
         //     main.style.display = 'flex';
@@ -85,6 +77,5 @@ window.addEventListener('load', () => {
                 // }, 4200);
             });
         });
-    }
 
 });
