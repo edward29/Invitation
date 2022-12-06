@@ -318,10 +318,15 @@ body {
         /* opacity: 1; */
         transform: rotateX(0deg);
     }
+
+    60% {
+        opacity: 1;
+        z-index: 60;
+    }
     
     100% {
         /* visibility: hidden; */
-        /* opacity: .5; */
+        opacity: .1;
         width: 230px;
         height: 215px;
         transform: rotateX(180deg);
@@ -348,10 +353,15 @@ body {
         visibility: hidden; */
         transform: rotateX(0deg);
     }
+
+    80% {
+        opacity: 1;
+        z-index: 70;
+    }
     
     100% {
-        /* opacity: 1;
-        visibility: visible; */
+        opacity: 1;
+        /* visibility: visible; */
         transform: rotateX(180deg);
         width: 263px;
         margin-top: -8px;

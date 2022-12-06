@@ -80,9 +80,9 @@ window.addEventListener('load', () => {
                     see.innerHTML = 'See You😍';
                 }, 3000);
 
-                setTimeout(() => {
-                    lower.style.display = 'none';
-                }, 3500);
+                // setInterval(() => {
+                //     lower.style.display = 'none';
+                // }, 4200);
             });
         });
     }
