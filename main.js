@@ -27,7 +27,6 @@ const see = document.querySelector('#see');
 
 window.addEventListener('load', () => {
     
-        error.style.display = 'none';
         // setTimeout(() => {
         //     main.style.display = 'flex';
         // }, 1000);
