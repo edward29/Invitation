@@ -261,7 +261,7 @@ body {
 .center {
     transform: translateY(-162px);
     background-image: url('details1.png');
-    z-index: 99;
+    z-index: 1;
 }
 
 .right {
