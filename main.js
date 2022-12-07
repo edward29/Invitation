@@ -40,7 +40,7 @@ window.addEventListener('load', () => {
         main.style.transform = 'translateY(-60px)';
         main.style.transitionDelay = '0.5s';
         wrapper.addEventListener('click', () => {
-            setInterval(() => {
+            setTimeout(() => {
                 text.style.display = 'none';
                 main.style.animation = 'up 2s forwards';
                 envelope.style.animation = 'out 2s forwards';
@@ -49,28 +49,28 @@ window.addEventListener('load', () => {
                 wrapper.style.background = 'transparent';
             }, 1000);
     
-            setInterval(() => {
+            setTimeout(() => {
                     envelope.style.display = 'none';
                     one.style.display = 'none';
                     two.style.display = 'none';
             }, 1800);
             
-            setInterval(() => {
+            setTimeout(() => {
                 left.style.webkitAnimation = 'swing-top-left-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both';
-                left.style.animation = 'swing-top-left-fwd 3s ;cubic-bezier(0.250, 0.460, 0.450, 0.940) both';
-                right.style.webkitAnimation = 'swing-top-right-fwd 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both';
+                left.style.animation = 'swing-top-left-fwd 1s ;cubic-bezier(0.250, 0.460, 0.450, 0.940) both';
+                right.style.webkitAnimation = 'swing-top-right-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both';
                 right.style.animation = 'swing-top-right-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both';
             }, 2000);
             
-            setInterval(() => {
-                lower.style.animation = 'lower 1.5s forwards';
-                lower2.style.animation = 'lower-2 1.5s forwards';
+            setTimeout(() => {
+                lower.style.animation = 'lower 1s forwards';
+                lower2.style.animation = 'lower-2 1s forwards';
                 see.innerHTML = 'See You😍';
             }, 3000);
 
-            setInterval(() => {
+            setTimeout(() => {
                 center.style.zIndex = '999';
-            }, 6000);
+            }, 4500);
             
         });
     });
